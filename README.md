@@ -10,9 +10,9 @@ The classification was performed using Naive Bayes algorithms:<br />
 -Multinominal NB,<br />
 -Gaussian NB,<br />
 -Complementary NB,<br />
--Linear SVC<br />
--Linear SVC with parameter search grid<br />
--SVC<br />
+-Linear SVC,<br />
+-Linear SVC with parameter search grid,<br />
+-SVC.<br />
 
 Visualization of the number of predictions (Linear SVC):
 
