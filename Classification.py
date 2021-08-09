@@ -65,7 +65,7 @@ def prepare_data():
 
 def combine_into_csv(ids, ratings, subjects):
     with open('review_data.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',')                                                                     #, quoting=csv.QUOTE_MINIMAL
+        writer = csv.writer(csvfile, delimiter=',')                                                                    
 
         data = list(zip(ids, ratings, subjects))
         writer.writerow(["ID", "Rating", "Subject"])
@@ -139,7 +139,7 @@ def explore_csv():
     # word_counts[lambda x: x < 2].plot.bar(ylim=0)
     # plt.show()
 
-    vectorizer = CountVectorizer()                                                                                      #Change into token count matrix
+    vectorizer = CountVectorizer()                                                                                
     X = vectorizer.fit_transform(dat2['Subject'])
     print(vectorizer.get_feature_names())
     print(X.toarray())
