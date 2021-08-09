@@ -15,6 +15,6 @@ The classification was performed using Naive Bayes algorithms:<br />
 -SVC.<br />
 
 Visualization of the number of predictions (Linear SVC):
-
+![Screenshot](LinearSVC.png)
 
 Statistical data (Linear SVC):
